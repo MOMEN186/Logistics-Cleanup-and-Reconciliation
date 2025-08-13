@@ -1,0 +1,26 @@
+[
+ {
+ "courierId": "Bosta",
+ "zonesCovered": ["6th of October", "Giza"],
+ "acceptsCOD": true,
+ "exclusions": ["fragile"],
+ "dailyCapacity": 3,
+ "priority": 2
+ },
+ {
+ "courierId": "Weevo",
+ "zonesCovered": ["6th of October", "Dokki", "Giza", "6 October"],
+ "acceptsCOD": true,
+ "exclusions": [],
+ "dailyCapacity": 4,
+ "priority": 1
+ },
+ {
+ "courierId": "SafeShip",
+ "zonesCovered": ["Dokki", "Giza"],
+ "acceptsCOD": false,
+ "exclusions": ["fragile"],
+ "dailyCapacity": 10,
+ "priority": 3
+ }
+]
