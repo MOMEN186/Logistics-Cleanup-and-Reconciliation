@@ -243,7 +243,11 @@ def reconcile(assignments, orders, log_rows, couriers):
 # I/O & Main
 # ----------------------------
 def read_json(path: Path):
-    return json.loads(path.read_text(encoding="utf-8"))
+    data = json.loads(path.read_text(encoding="utf-8"))
+    # Handle both direct array and wrapped object with 'orders' key
+    if isinstance(data, dict) and 'orders' in data:
+        return data['orders']
+    return data
 
 
 def read_log_csv(path: Path):

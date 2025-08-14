@@ -1,13 +1,11 @@
 {
-  "missing": [
-    "ORD-001",
-    "ORD-002",
-    "ORD001"
-  ],
   "unexpected": [],
-  "duplicate": [],
-  "late": [],
   "misassigned": [],
-  "overloadedCouriers": [],
-  "notDelivered":[]
+  "late": [],
+  "duplicate": [],
+  "notDelivered": [
+    "ORD-002.",
+    "Ord-001",
+    "ord001"
+  ]
 }
